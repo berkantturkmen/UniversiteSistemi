@@ -95,33 +95,7 @@ Bu proje, C# Windows Forms ve MySQL kullanılarak geliştirilmiş bir Öğrenci 
          FOREIGN KEY (ogrenci_id) REFERENCES ogrenciler(id),
          FOREIGN KEY (ders_id) REFERENCES dersler(id)
      );
-    -- Transkript View (GANO Hesabı için)
-CREATE VIEW ogrenci_transkript AS
-SELECT
-    o.id AS ogrenci_id,
-    o.ad,
-    o.soyad,
-    d.ders_adi,
-    d.kredi,
-    n.vize,
-    n.final,
-    ROUND((n.vize * 0.4 + n.final * 0.6), 2) AS ortalama,
-    CASE
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 90 THEN 'AA'
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 85 THEN 'BA'
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 80 THEN 'BB'
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 75 THEN 'CB'
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 70 THEN 'CC'
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 65 THEN 'DC'
-        WHEN (n.vize * 0.4 + n.final * 0.6) >= 60 THEN 'DD'
-        ELSE 'FF'
-    END AS harf_notu
-FROM
-    ogrenciler o
-JOIN
-    notlar n ON o.id = n.ogrenci_id
-JOIN
-    dersler d ON d.id = n.ders_id;
+   
 
 2. **Proje Kurulumu:**
    - Visual Studio 2022'yi açın.
