@@ -123,6 +123,6 @@ Berkant Türkmen
 
 📫 Mail: berkanttrkmen@gmail.com
 
-💻 GitHub: github.com/berkantturkmen
+💻 GitHub: [github.com/berkantturkmen](https://github.com/berkantturkmen)
 
-💼 LinkedIn: linkedin.com/in/berkantturkmen
+💼 LinkedIn: [linkedin.com/in/berkantturkmen](https://www.linkedin.com/in/berkantturkmen/)
