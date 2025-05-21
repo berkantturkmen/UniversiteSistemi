@@ -118,4 +118,11 @@ Bu proje, C# Windows Forms ve MySQL kullanılarak geliştirilmiş bir Öğrenci 
 ## 📜 Lisans
 
 Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasını inceleyin.
+👨‍💻 Geliştirici
+Berkant Türkmen
 
+📫 Mail: berkanttrkmen@gmail.com
+
+💻 GitHub: github.com/berkantturkmen
+
+💼 LinkedIn: linkedin.com/in/berkantturkmen
